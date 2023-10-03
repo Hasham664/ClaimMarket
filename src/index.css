@@ -502,8 +502,8 @@ input[type='checkbox'] {
 
 .backColor5 {
   background-color: #f4f4f4;
-  padding-bottom: 180px;
-  padding-top: 50px;
+  padding-bottom: 130px;
+  padding-top: 30px;
 }
 .inner-pic2 {
   grid-template-columns: repeat(2, 1fr);
@@ -597,8 +597,9 @@ input[type='checkbox'] {
   max-width: 180px;
 }
 .star img {
-  position: relative;
-  right: 110px;
+  position: absolute;
+  /* right: 110px; */
+  left: 0px;
   width: 100%;
   max-width: 90px;
   top: 0px;
@@ -702,11 +703,18 @@ input[type='checkbox'] {
 }
 .star-5 {
   position: relative;
-  top: -130px;
+  top: -30px;
 }
 .star-5 img {
   position: absolute;
   left: 40px;
+}
+.history h1.again {
+  padding-top: 50px;
+}
+.star {
+  position: relative;
+  top: 160px;
 }
 @media all and (max-width: 1024px) {
   .text h1 {
@@ -771,10 +779,6 @@ input[type='checkbox'] {
     left: 780px;
     top: 60px;
   }
-  .star img {
-    right: 64px;
-    top: 20px;
-  }
 }
 @media all and (max-width: 912px) {
   n.boxes {
@@ -823,6 +827,9 @@ input[type='checkbox'] {
   }
 }
 @media all and (max-width: 768px) {
+  .star {
+    display: none;
+  }
   .back-pic {
     background-position: center;
     padding-bottom: 100px;

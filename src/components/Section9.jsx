@@ -8,10 +8,10 @@ const Section9 = () => {
           <div className='eli'>
             <img src='./elip-1.png' alt='' />
           </div>
-          <div className='star'>
-            <img src='./star-1.png' alt='' />
-          </div>
         </div>
+      </div>
+      <div className='star'>
+        <img src='./star-1.png' alt='' />
       </div>
     </>
   );

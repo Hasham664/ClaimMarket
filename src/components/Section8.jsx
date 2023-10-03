@@ -12,7 +12,7 @@ const Section8 = () => {
         </div>
         <div className='container'>
           <div className='history'>
-            <h1>claims-market</h1>
+            <h1 className='again'> claims-market</h1>
           </div>
           <div className='trans'>
             <h2>CONTACT</h2>
