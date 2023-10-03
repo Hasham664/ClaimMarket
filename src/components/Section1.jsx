@@ -4,6 +4,9 @@ const Section1 = () => {
   return (
     <>
       <div className='backColor1'>
+        <div className='scale'>
+          <img src='./scale.png' alt='' />
+        </div>
         <div className='container'>
           <div className='history'>
             <h1>claims-market</h1>
@@ -63,9 +66,6 @@ const Section1 = () => {
           </div>
           <div className='btn-table'>
             <button>Show more</button>
-          </div>
-          <div className='scale'>
-            <img src='./scale.png' alt='' />
           </div>
         </div>
       </div>

@@ -142,12 +142,14 @@ nav a {
   flex-wrap: wrap;
   /* margin-left: 50px; */
 }
-
-.scale img {
+.scale {
   position: relative;
-  left: 1420px;
-  width: 130px;
-  top: -500px;
+  top: 250px;
+}
+.scale img {
+  position: absolute;
+  right: 0px;
+  width: 160px;
 }
 
 .backColor1 {
@@ -185,6 +187,8 @@ nav a {
 }
 
 .table {
+  z-index: 99;
+  position: relative;
   grid-template-columns: 20% 20% 25% 35%;
   display: grid;
   margin-top: 50px;
@@ -224,6 +228,7 @@ nav a {
 .btn-table {
   text-align: center;
   margin-top: 70px;
+  padding-bottom: 60px;
 }
 .btn-table button {
   color: #3d3d3d;
@@ -590,11 +595,15 @@ input[type='checkbox'] {
   padding-bottom: 0px;
 }
 .eli img {
-  position: relative;
-  left: 1200px;
-  top: 50px;
+  position: absolute;
+  /* left: 1200px; */
+  right: 50px;
   width: 100%;
   max-width: 180px;
+}
+.eli {
+  position: relative;
+  top: 50px;
 }
 .star img {
   position: absolute;
@@ -610,7 +619,7 @@ input[type='checkbox'] {
 }
 
 .foter {
-  margin-top: 120px;
+  margin-top: 320px;
   background-color: #222222;
   /* padding: 40px 10px; */
 }
@@ -720,7 +729,7 @@ input[type='checkbox'] {
 }
 .star {
   position: relative;
-  top: -130px;
+  top: 50px;
 }
 .onlyP a {
   color: white;
@@ -729,18 +738,21 @@ input[type='checkbox'] {
 .faq-drawer__content p {
   padding: 15px 5px;
 }
+@media all and (max-width: 1604px) {
+  nav ul {
+    margin-left: 280px;
+  }
+}
 @media all and (max-width: 1024px) {
   .text h1 {
     max-width: 630px !important;
   }
 
-  .scale img {
-    left: 838px !important;
-    width: 130px;
-    top: -500px;
-  }
   .onlyP {
     padding: 100px 60px;
+  }
+  nav ul {
+    margin-left: 10px !important;
   }
 }
 @media all and (max-width: 1280px) {
@@ -749,11 +761,7 @@ input[type='checkbox'] {
     padding-top: 100px;
     /* align-items: center; */
   }
-  .scale img {
-    left: 1085px;
-    width: 130px;
-    top: -500px;
-  }
+
   .icon p {
     padding: 15px 14px;
   }
@@ -777,10 +785,6 @@ input[type='checkbox'] {
   .text h1 {
     max-width: 1100px;
   }
-  .eli img {
-    left: 780px;
-    top: 60px;
-  }
 }
 @media all and (max-width: 912px) {
   .boxes {
@@ -797,9 +801,7 @@ input[type='checkbox'] {
   nav ul li {
     padding: 20px;
   }
-  .eli img {
-    left: 600px;
-  }
+
   .star img {
     right: 50px;
     top: 25px;
