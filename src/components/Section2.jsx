@@ -43,13 +43,13 @@ const Section2 = () => {
           </div>
         </div>
         <div className='stars'>
-          <div className='sec-elip'>
-            <img src='./elip-2.png' alt='' />
-          </div>
           <div className='star-2'>
             <img src='./star-2.png' alt='' />
           </div>
         </div>
+      </div>
+      <div className='sec-elip'>
+        <img src='./elip-2.png' alt='' />
       </div>
     </>
   );

@@ -20,20 +20,53 @@ const Footer = () => {
               </div>
             </div>
             <div className='onlyP'>
-              <p>How it Works</p>
-              <p>SAC (Simple Assignment of Claim)</p>
-              <p>Seller's Agreement</p>
-              <p>Buyer's Agreement</p>
+              <a href=''>
+                {' '}
+                <p>How it Works</p>
+              </a>
+              <a href=''>
+                {' '}
+                <p>SAC (Simple Assignment of Claim)</p>
+              </a>
+              <a href=''>
+                {' '}
+                <p>Seller's Agreement</p>
+              </a>
+              <a href=''>
+                {' '}
+                <p>Buyer's Agreement</p>
+              </a>
             </div>
             <div className='onlyP'>
               <div className='top'>
-                <p>Claims Offered</p>
-                <p>Transactions </p>
-                <p>FAQ </p>
-                <p> SPTA (Simple Pass Through)</p>
-                <p>Assignment)</p>
-                <p>Legal </p>
-                <p>Contact Us</p>
+                <a href=''>
+                  {' '}
+                  <p>Claims Offered</p>
+                </a>
+                <a href=''>
+                  {' '}
+                  <p>Transactions </p>
+                </a>
+                <a href=''>
+                  {' '}
+                  <p> SPTA (Simple Pass Through)</p>
+                </a>
+                <a href=''>
+                  {' '}
+                  <p>Assignment)</p>
+                </a>
+                <a href=''>
+                  {' '}
+                  <p>FAQ </p>
+                </a>
+                <a href=''>
+                  {' '}
+                  <p>Legal </p>
+                </a>
+                <a href=''>
+                  {' '}
+                  <p>Contact Us</p>
+                </a>
               </div>
             </div>
           </div>
