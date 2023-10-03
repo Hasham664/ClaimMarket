@@ -687,11 +687,12 @@ input[type='checkbox'] {
 }
 .star-4 img {
   position: absolute;
-  left: 1420px;
+  /* left: 1420px; */
+  right: 50px;
   width: 80px;
 }
 .star-4 {
-  top: 10px;
+  top: 140px;
   position: relative;
 }
 .elip-3 img.little {
@@ -705,7 +706,7 @@ input[type='checkbox'] {
 }
 .star-5 img {
   position: absolute;
-  left: 60px;
+  left: 40px;
 }
 @media all and (max-width: 1024px) {
   .text h1 {
@@ -722,27 +723,17 @@ input[type='checkbox'] {
   }
 }
 @media all and (max-width: 1280px) {
-  .star-5 {
-    display: none;
-  }
   .elip-3 {
     display: none;
   }
-  .star-3 {
-    display: none;
-  }
-  .star-4 {
-    display: none;
-  }
+
   .scale-3 {
     display: none;
   }
   .elip-3 img {
     display: none;
   }
-  .stars {
-    display: none;
-  }
+
   .boxes {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 100px;
@@ -786,10 +777,7 @@ input[type='checkbox'] {
   }
 }
 @media all and (max-width: 912px) {
-  .stars {
-    display: none;
-  }
-  .boxes {
+  n.boxes {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 100px;
     align-items: center;
